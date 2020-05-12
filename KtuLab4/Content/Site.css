@@ -1,31 +1,56 @@
-﻿/* Move down content because we have a fixed navbar that is 50px tall */
+﻿* {
+    font-family: 'Segoe UI';
+}
+
 body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    background: #ddd;
+    line-height: 26px;
 }
 
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+select {
+    height: 30px;
+    font-weight: bold;
+    border-radius: 0;
+    background-color: #777;
+    border: none;
+    border-bottom: 2px solid #000;
+    color: #fff;
 }
 
-/* Set widths on the form inputs since otherwise they're 100% wide */
-input,
-select,
-textarea {
-    max-width: 280px;
+#NameLabel {
+    font-size: 36px;
+    font-weight: bold;
 }
 
+table, th, td {
+    background: #eee;
+    font-size: 24px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0px 5px;
+    text-align: center;
+}
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-    .jumbotron {
-        margin-top: 20px;
+th {
+    background: #b8b8b8;
+}
+
+td {
+    padding: 0px 15px;
+}
+
+input[type=submit] {
+    font-size: 18px;
+    border: 1px solid black;
+    box-shadow: #000 3px 3px;
+}
+
+    input[type=submit]:hover {
+        box-shadow: #555 3px 3px;
+        background: #ddd;
     }
 
-    .body-content {
-        padding: 0;
+    input[type=submit]:active {
+        position: relative;
+        top: 1px;
     }
-}

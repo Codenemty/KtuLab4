@@ -1,0 +1,7 @@
+Kaunas
+gatve 55 555
++37066666665
+Bus;porpor;Benz;Model 8;2009;10;2016-05-04;Gasoline;21;90
+Car;gal420;BMW;318;2012;10;2017-05-11;Gasoline;8;400000
+Car;xyz456;Audi;A4;2012;10;2017-05-10;Gas;10,5;150000
+Truck;zcg321;Gaz;R57;2009;10;2016-01-04;Gasoline;21;2900
